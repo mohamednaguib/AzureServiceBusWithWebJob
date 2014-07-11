@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.WindowsAzure.Jobs</id>
+    <version>0.2.1-alpha2</version>
+    <title>Microsoft.WindowsAzure.Jobs</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=320972</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Legacy package, Microsoft.WindowsAzure.Jobs is now included in the 'Microsoft.Azure.Jobs.Core' package.</description>
+    <summary>Legacy package, Microsoft.WindowsAzure.Jobs is now included in the 'Microsoft.Azure.Jobs.Core' package.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft Azure WebJobs Jobs</tags>
+    <dependencies>
+      <dependency id="Microsoft.Azure.Jobs.Core" version="0.3.0-beta" />
+    </dependencies>
+  </metadata>
+</package>
