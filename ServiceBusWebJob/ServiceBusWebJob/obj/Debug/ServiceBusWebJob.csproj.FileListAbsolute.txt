@@ -59,3 +59,6 @@ C:\Users\Mohamed Naguib\Documents\Visual Studio 2013\Projects\ServiceBusWebJob\S
 C:\Users\Mohamed Naguib\Documents\Visual Studio 2013\Projects\ServiceBusWebJob\ServiceBusWebJob\bin\Debug\zh-Hant\System.Spatial.resources.dll
 C:\Users\Mohamed Naguib\Documents\Visual Studio 2013\Projects\ServiceBusWebJob\ServiceBusWebJob\obj\Debug\ServiceBusWebJob.exe
 C:\Users\Mohamed Naguib\Documents\Visual Studio 2013\Projects\ServiceBusWebJob\ServiceBusWebJob\obj\Debug\ServiceBusWebJob.pdb
+C:\Blog\ServiceBus-WebJob\ServiceBusWebJob\ServiceBusWebJob\bin\Debug\ServiceBusWebJob.exe.config
+C:\Blog\ServiceBus-WebJob\ServiceBusWebJob\ServiceBusWebJob\obj\Debug\ServiceBusWebJob.exe
+C:\Blog\ServiceBus-WebJob\ServiceBusWebJob\ServiceBusWebJob\obj\Debug\ServiceBusWebJob.pdb
