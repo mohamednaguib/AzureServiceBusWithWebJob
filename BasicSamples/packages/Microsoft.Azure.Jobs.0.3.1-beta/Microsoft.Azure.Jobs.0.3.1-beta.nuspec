@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Azure.Jobs</id>
+    <version>0.3.1-beta</version>
+    <title>Microsoft.Azure.Jobs</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=320972</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This package contains the runtime assemblies for Microsoft.Azure.Jobs.Host. It also adds rich diagnostics capabilities which makes it easier to monitor the Jobs in the dashboard. For more information, please visit http://go.microsoft.com/fwlink/?LinkID=320971</description>
+    <summary>Microsoft.Azure.Jobs.Host is a library for writing Jobs in Microsoft Azure. The host is a container where all the functions in your program can execute. This package contains the runtime assemblies for Microsoft.Azure.Jobs.Host.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft Azure WebJobs Web Jobs Storage Table Blob Queue windowsazureofficial Web</tags>
+    <dependencies>
+      <dependency id="Microsoft.Azure.Jobs.Core" version="[0.3.1-beta]" />
+      <dependency id="Newtonsoft.Json" version="5.0.6" />
+      <dependency id="WindowsAzure.Storage" version="4.0.1" />
+    </dependencies>
+  </metadata>
+</package>

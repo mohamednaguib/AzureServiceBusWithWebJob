@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Azure.Jobs.ServiceBus</id>
+    <version>0.3.1-beta</version>
+    <title>Microsoft.Azure.Jobs.ServiceBus</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=320972</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This package contains the runtime assemblies for Microsoft.Azure.Jobs.ServiceBus. For more information, please visit http://go.microsoft.com/fwlink/?LinkID=320971</description>
+    <summary>Microsoft.Azure.Jobs.ServiceBus is a library for writing Microsoft Azure Jobs using Service Bus. This package contains the runtime assemblies for Microsoft.Azure.Jobs.ServiceBus.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft Azure WebJobs Jobs Queue ServiceBus Queue Topic windowsazureofficial</tags>
+    <dependencies>
+      <dependency id="Microsoft.Azure.Jobs" version="[0.3.1-beta]" />
+      <dependency id="Newtonsoft.Json" version="5.0.6" />
+      <dependency id="WindowsAzure.ServiceBus" version="2.3.1.0" />
+    </dependencies>
+  </metadata>
+</package>

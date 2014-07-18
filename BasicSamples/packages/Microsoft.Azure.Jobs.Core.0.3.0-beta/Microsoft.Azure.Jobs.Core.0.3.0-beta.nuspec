@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Azure.Jobs.Core</id>
+    <version>0.3.0-beta</version>
+    <title>Microsoft.Azure.Jobs.Core</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=320972</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This library simplifies the task of adding background processing to your Microsoft Azure Web Sites. The SDK uses Microsoft Azure Storage, triggering a function in your program when items are added to Queues and Blobs. A dashboard provides rich monitoring and diagnostics for the programs that you write by using the SDK. For more information, please visit http://go.microsoft.com/fwlink/?LinkID=320971</description>
+    <summary>Microsoft.Azure.Jobs is a library for writing Jobs in Microsoft Azure. This package contains the runtime assemblies for Microsoft.Azure.Jobs.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft Azure WebJobs Jobs Storage Table Blob Queue windowsazureofficial</tags>
+  </metadata>
+</package>

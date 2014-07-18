@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Azure.Jobs.ServiceBus</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Azure.Jobs.ServiceBusAttribute">
+            <summary>Binds to Azure Service Bus Queues and Topics.</summary>
+            <remarks>
+            The method parameter type can be one of the following:
+            <list type="bullet">
+            <item><description>BrokeredMessage (out param)</description></item>
+            <item><description><see cref="T:System.String"/> (out param)</description></item>
+            <item><description><see cref="T:byte[]"/> (out param)</description></item>
+            <item><description>A user-defined type (out param, serialized as JSON)</description></item>
+            <item><description>
+            <see cref="T:System.Collections.Generic.ICollection`1"/> of these types (to enqueue multiple messages via <see cref="M:System.Collections.Generic.ICollection`1.Add(`0)"/>
+            </description></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Azure.Jobs.ServiceBusAttribute.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.Jobs.ServiceBusAttribute"/> class.</summary>
+            <param name="queueOrTopicName">The name of the queue or topic to which to bind.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Jobs.ServiceBusAttribute.ToString">
+            <inheritdoc />
+        </member>
+        <member name="P:Microsoft.Azure.Jobs.ServiceBusAttribute.QueueOrTopicName">
+            <summary>Gets the name of the queue or topic to which to bind.</summary>
+        </member>
+        <member name="T:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute">
+            <summary>
+            Represents an attribute that binds a parameter to a Service Bus Queue message, causing the method to run when a
+            message is enqueued.
+            </summary>
+            <remarks>
+            The method parameter type can be one of the following:
+            <list type="bullet">
+            <item><description>BrokeredMessage</description></item>
+            <item><description><see cref="T:System.String"/></description></item>
+            <item><description><see cref="T:byte[]"/></description></item>
+            <item><description>A user-defined type (serialized as JSON)</description></item>
+            </list>
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute"/> class.</summary>
+            <param name="queueName">The name of the queue to which to bind.</param>
+        </member>
+        <member name="M:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute"/> class.</summary>
+            <param name="topicName">The name of the topic to which to bind.</param>
+            <param name="subscriptionName">The name of the subscription in <paramref name="topicName"/> to which to bind.</param>
+        </member>
+        <member name="P:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.QueueName">
+            <summary>Gets the name of the queue to which to bind.</summary>
+            <remarks>When binding to a subscription in a topic, returns <see langword="null"/>.</remarks>
+        </member>
+        <member name="P:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.TopicName">
+            <summary>Gets the name of the topic to which to bind.</summary>
+            <remarks>When binding to a queue, returns <see langword="null"/>.</remarks>
+        </member>
+        <member name="P:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.SubscriptionName">
+            <summary>Gets the name of the subscription in <see cref="P:Microsoft.Azure.Jobs.ServiceBusTriggerAttribute.TopicName"/> to which to bind.</summary>
+            <remarks>When binding to a queue, returns <see langword="null"/>.</remarks>
+        </member>
+    </members>
+</doc>
